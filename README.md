@@ -24,3 +24,9 @@ Learn how to use go.
 [练习1.9](./gopl/ch1/1_9.go)
 
 ### CH2 程序结构
+
+---
+
+## 与C、C++的区别
+
+1. map是基于哈希的，无需。另外和 c++ 不同的是 go 的 map\[key\] 这种下标访问并不会创建该 key 对应的元素，而 c++ map 的下标运算会。go 一般用 if _, ok := map\[key\]; ok == true 的方式得知存不存在元素。
