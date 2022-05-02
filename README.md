@@ -45,13 +45,13 @@ Learn how to use go.
 
 [练习1.10](./gopl/ch1/1_10.go)，注意要修改代码，而且在同一个进程内连续访问，才能看到这种缓存的效果。
 
-![IMG](./image/1_10.png)
+![IMG](./image/gopl/1_10.png)
 
 #### 1.11
 
 [练习1.11](./gopl/ch1/1_11.go)，会等待一段时间后超时错误，我这里是关上 vpn 然后测试 google。
 
-![IMG](./image/1_11.png)
+![IMG](./image/gopl/1_11.png)
 
 #### 1.12
 
