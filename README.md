@@ -55,7 +55,11 @@ Learn how to use go.
 
 #### 1.12
 
-[练习1.12](./gopl/ch1/1_12.go)
+[练习1.12](./gopl/ch1/1_12.go)，命令行输入 go run 1_12.go web & 后台运行服务器，然后浏览器 localhost:8000 访问即可。
+
+![IMG](./image/gopl/1_12.png)
+
+至于为什么我不用 localhost 是因为我用的是 wsl2，windows 下访问 wsl2 的子系统网络需要对应的 ip (可以在 ip addr | grep eth0 获取)，另外对应的 go 源程序也要把 localhost 改成对应的要监听的网卡 ip。
 
 ### CH2 程序结构
 
