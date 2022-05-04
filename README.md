@@ -1,6 +1,10 @@
 # Go-Note
 Learn how to use go.
 
+## 前言
+
+使用环境是 WSL2 + VSCode，然后由于本人刚刚开始学习 Go，所以目前并不会使用 go mod 来配置项目，该项目目前是直接配置在 GOPATH 下的，以后学会用 go mod 管理再改。
+
 ## 《GO 程序设计语言》
 
 ### CH1 入门
