@@ -5,6 +5,10 @@ Learn how to use go.
 
 使用环境是 WSL2 + VSCode，然后由于本人刚刚开始学习 Go，所以目前并不会使用 go mod 来配置项目，该项目目前是直接配置在 GOPATH 下的，以后学会用 go mod 管理再改。
 
+如果需要使用我的代码只需要把 GOPATH 设置成该项目路径即可。
+
+Tips：VSCode 可以 ctrl+shift+p 输入 go install tools 安装在 GOPATH 下安装好辅助工具(如代码提示、代码跳转等功能)；另外由于包跳转总是打开超链接，可以在 setting.json 加入 "editor.links": false 来关闭这个功能。
+
 ## 《GO 程序设计语言》
 
 ### CH1 入门
